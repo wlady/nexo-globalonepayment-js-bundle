@@ -1,3 +1,5 @@
+This is a project to add custom code and/or optional libraries to Tendoo CMS module.
+
 To build bundle just install:
 
 npm i browserify minifify card-validator
