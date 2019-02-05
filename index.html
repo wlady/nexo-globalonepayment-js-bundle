@@ -1,0 +1,15 @@
+<html>
+<head>
+<script src="bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+<H1>OK</H1>
+</body>
+<script>
+$(document).ready(function() {
+    var validNumber = cardValidator.number('4111');
+    console.log([validNumber.isValid, validNumber.card.type]);
+});
+</script>
+</html>
